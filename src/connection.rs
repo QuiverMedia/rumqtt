@@ -376,7 +376,7 @@ impl Connection {
                     }
                 }
             }
-            _ => debug!("packet handler says that he doesn't care"),
+            _ => {},
         }
         Ok(())
     }
